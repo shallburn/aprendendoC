@@ -13,7 +13,6 @@ int main(void)
         printf("Por favor, informe a temperatura em Celsius.\n");
         int lidos = scanf("%lf", &entrada);
 
-        
         if (lidos == 1)
         {
             double resultado = entrada + 273.15;
@@ -25,8 +24,8 @@ int main(void)
             else
             {
                 printf("A temperatura em Kelvin não é válida. Não existe "
-                      "temperatura abaixo de 0 em Kelvin. Por favor,"
-                    " informe uma nova\n");
+                       "temperatura abaixo de 0 em Kelvin. Por favor,"
+                       " informe uma nova\n");
             }
         }
         else if (lidos == EOF)
